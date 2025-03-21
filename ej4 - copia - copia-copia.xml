@@ -1,0 +1,30 @@
+<!--
+Nombre: Nicolas Riquelme
+Curso: Asir1
+Fecha: 17/03/2025
+Ejercicio: 4
+-->
+<empresa>
+<chamba>
+<nombre>gargamel</nombre>
+<apellido>aASDSD</apellido>
+<edad>37</edad>
+<departamento>DFGDGFD</departamento>
+<cargo>Ejecutivo</cargo>
+</chamba>
+<chamba>
+<nombre>gargamel</nombre>
+<apellido>aASDSD</apellido>
+<edad>37</edad>
+<departamento>DFGDGFD</departamento>
+<cargo>Ejecutivo</cargo>
+</chamba>
+<chamba>
+<nombre>gargamel</nombre>
+<apellido>aASDSD</apellido>
+<edad>37</edad>
+<departamento>DFGDGFD</departamento>
+<cargo>Ejecutivo</cargo>
+</chamba>
+
+</empresa>

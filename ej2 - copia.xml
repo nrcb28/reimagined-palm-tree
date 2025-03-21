@@ -1,0 +1,23 @@
+<!--
+Nombre: Nicolas Riquelme
+Curso: Asir1
+Fecha: 17/03/2025
+Ejercicio: 2
+-->
+<historico>
+    <fecha descripcion= "ibm">
+        <dia>12</dia>
+        <mes>1</mes>
+	<año>1221</año>
+   </fecha>
+    <fecha descripcion= "ibm">
+        <dia>12</dia>
+        <mes>1</mes>
+	<año>1221</año>
+   </fecha>
+    <fecha descripcion= "ibm">
+        <dia>12</dia>
+        <mes>1</mes>
+	<año>1221</año>
+   </fecha>
+</historico>

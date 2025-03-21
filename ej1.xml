@@ -1,0 +1,20 @@
+<!--
+Nombre: Nicolas Riquelme
+Curso: Asir1
+Fecha: 17/03/2025
+Ejercicio: 1
+-->
+<ciudades>
+    <ciudad>
+        <nombre>Nueva Delhi</nombre>
+        <pais continente="Asia">India</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Lisboa</nombre>
+        <pais continente="Europa">Portugal</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>El Cairo</nombre>
+        <pais continente="África">Egipto</pais>
+    </ciudad>
+</ciudades>
