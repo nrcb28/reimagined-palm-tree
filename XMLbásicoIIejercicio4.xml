@@ -1,0 +1,39 @@
+<modulo>
+    <nombre>Lenguajes de Marcas</nombre>
+    <horasSemanales>4</horasSemanales>
+    <caracter>Obligatorio</caracter>
+    <fechaInicio>2023-09-15</fechaInicio>
+    <fechaFin>2024-06-22</fechaFin>
+
+    <alumnos>
+        <alumno>
+            <nombreCompleto>Ana Fernández Gutiérrez</nombreCompleto>
+            <dni>51623487V</dni>
+            <telefono>666544566</telefono>
+            <email>anafernandez@gmail.com</email>
+            <direccion>
+                <calle>C/ Amatista, 14</calle>
+                <codigoPostal>28905</codigoPostal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <nota />
+            <faltas />
+        </alumno>
+
+        <alumno>
+            <nombreCompleto>Carlos López Sánchez</nombreCompleto>
+            <dni>52369874B</dni>
+            <telefono>666455477</telefono>
+            <email>carloslopez@gmail.com</email>
+            <direccion>
+                <calle>C/ Ópalo, 15</calle>
+                <codigoPostal>28905</codigoPostal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <nota>Apto</nota>
+            <faltas>0</faltas>
+        </alumno>
+    </alumnos>
+</modulo>

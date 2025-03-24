@@ -1,0 +1,17 @@
+<marcadores>
+    <elemento>
+        <titulo>W3Schools</titulo>
+        <info>Tutoriales de informática.</info>
+        <url>https://www.w3schools.com/</url>
+    </elemento>
+    <elemento>
+        <titulo>Wikipedia</titulo>
+        <info>La enciclopedia libre.</info>
+        <url>http://www.wikipedia.org/</url>
+    </elemento>
+    <elemento>
+        <titulo>W3C</titulo>
+        <info>World Wide Web Consortium.</info>
+        <url>http://www.w3.org/</url>
+    </elemento>
+</marcadores>

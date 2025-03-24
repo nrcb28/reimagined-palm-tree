@@ -1,0 +1,33 @@
+<clubes>
+    <club>
+        <equipoNombre>Real Madrid</equipoNombre>
+        <ubicacion>Madrid</ubicacion>
+        <cuerpoTecnico />
+        <plantilla>
+            <miembro posicion="portero">
+                <jugadorNombre>Thibaut Courtois</jugadorNombre>
+                <pais>Bélgica</pais>
+            </miembro>
+            <miembro posicion="delantero">
+                <jugadorNombre>Vinícius Jr.</jugadorNombre>
+                <pais>Brasil</pais>
+            </miembro>
+        </plantilla>
+    </club>
+    <club>
+        <equipoNombre>Manchester City</equipoNombre>
+        <ubicacion>Mánchester</ubicacion>
+        <cuerpoTecnico />
+        <plantilla>
+            <miembro posicion="medio">
+                <jugadorNombre>Kevin De Bruyne</jugadorNombre>
+                <pais>Bélgica</pais>
+            </miembro>
+            <miembro posicion="defensa">
+                <jugadorNombre>Rúben Dias</jugadorNombre>
+                <pais>Portugal</pais>
+            </miembro>
+        </plantilla>
+    </club>
+</clubes>
+
