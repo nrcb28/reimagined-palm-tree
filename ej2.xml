@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:bk="http://ej2/book">
+  <head>
+    <title>Book Review</title>
+  </head>
+  <body>
+    <bk:bookreview>
+      <bk:title>Introducción a XML</bk:title>
+      <table border="1">
+        <tr align="center">
+          <td>Author</td>
+          <td>Price</td>
+          <td>Pages</td>
+          <td>Date</td>
+        </tr>
+        <tr align="left">
+          <td><bk:author>Simon St. Laurent</bk:author></td>
+          <td><bk:price>31.98</bk:price></td>
+          <td><bk:pages>352</bk:pages></td>
+          <td><bk:date>1998/01</bk:date></td>
+        </tr>
+      </table>
+    </bk:bookreview>
+  </body>
+</html>
