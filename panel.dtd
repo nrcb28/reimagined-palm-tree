@@ -1,0 +1,16 @@
+<!ELEMENT panel (vuelo+)>
+<!ATTLIST panel 
+  aeropuerto CDATA #REQUIRED
+  fecha CDATA #REQUIRED>
+
+<!ELEMENT vuelo (origen, destino, hora_salida, hora_llegada)>
+<!ATTLIST vuelo 
+  codigo ID #REQUIRED
+  estado (C | E | R) "E"
+  diario (SI | NO) #IMPLIED>
+
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hora_salida (#PCDATA)>
+<!ELEMENT hora_llegada (#PCDATA)>
+

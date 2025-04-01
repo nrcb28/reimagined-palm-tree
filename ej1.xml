@@ -1,45 +1,57 @@
-<catalogo xmlns:os="http://ej1.xml/os" xmlns:office="http://ej1.xml/office">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+  <!ELEMENT factura (datos-emisor, datos-cliente, detalle-factura)>
+  <!ATTLIST factura numero CDATA #REQUIRED fecha CDATA #REQUIRED>
 
-  <os:software>
-    <os:nombre>Windows </os:nombre>
-    <os:version>3242</os:version>
-    <os:desarrollador>Microsoft</os:desarrollador>
-    <os:url>https://www.microsoft.com</os:url>
-  </os:software>
+  <!ELEMENT datos-emisor (nombre, cif, telefono)>
+  <!ELEMENT datos-cliente (nombre, cif, telefono)>
 
-  <os:software>
-    <os:nombre>max</os:nombre>
-    <os:version>20 LTS</os:version>
-    <os:desarrollador>ayuso </os:desarrollador>
-    <os:url>https://www.educa2.madrid.org/web/max</os:url>
-  </os:software>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT cif (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
 
-  <os:software>
-    <os:nombre>kaspersky</os:nombre>
-    <os:version>31</os:version>
-    <os:desarrollador>kaspersky</os:desarrollador>
-    <os:url>https://https://www.kaspersky.es</os:url>
-  </os:software>
+  <!ELEMENT detalle-factura (linea+)>
+  <!ATTLIST detalle-factura importe CDATA #REQUIRED>
 
-  <office:software>
-    <office:nombre>Microsoft Word</office:nombre>
-    <office:version>2021</office:version>
-    <office:desarrollador>Microsoft</office:desarrollador>
-    <office:url>https://www.microsoft.com/word</office:url>
-  </office:software>
+  <!ELEMENT linea (descripcion, cantidad, pvp, oferta?)>
+  <!ATTLIST linea codigo-articulo ID #REQUIRED tipo (Libro | DVD | Varios) #REQUIRED>
 
-  <office:software>
-    <office:nombre>LibreOffice Writer</office:nombre>
-    <office:version>7.6</office:version>
-    <office:desarrollador>The Document Foundation</office:desarrollador>
-    <office:url>https://www.libreoffice.org</office:url>
-  </office:software>
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT cantidad (#PCDATA)>
+  <!ELEMENT pvp (#PCDATA)>
+  <!ELEMENT oferta EMPTY>
+]>
 
-  <office:software>
-    <office:nombre>Google Docs</office:nombre>
-    <office:version>N/A</office:version>
-    <office:desarrollador>Google</office:desarrollador>
-    <office:url>https://docs.google.com</office:url>
-  </office:software>
+<factura numero="F1001" fecha="2025-04-01">
+  <datos-emisor>
+    <nombre>Librería Alfa</nombre>
+    <cif>B99887766</cif>
+    <telefono>910101010</telefono>
+  </datos-emisor>
 
-</catalogo>
+  <datos-cliente>
+    <nombre>Biblioteca Omega</nombre>
+    <cif>G11223344</cif>
+    <telefono>930303030</telefono>
+  </datos-cliente>
+
+  <detalle-factura importe="75.00">
+    <linea codigo-articulo="A101" tipo="Libro">
+      <descripcion>Cien años de soledad</descripcion>
+      <cantidad>1</cantidad>
+      <pvp>25.00</pvp>
+    </linea>
+    <linea codigo-articulo="A102" tipo="DVD">
+      <descripcion>Educación ambiental</descripcion>
+      <cantidad>1</cantidad>
+      <pvp>30.00</pvp>
+      <oferta/>
+    </linea>
+    <linea codigo-articulo="A103" tipo="Varios">
+      <descripcion>Bolígrafos</descripcion>
+      <cantidad>5</cantidad>
+      <pvp>4.00</pvp>
+    </linea>
+  </detalle-factura>
+</factura>
+
