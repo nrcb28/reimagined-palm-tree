@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="C01" titulo="El bosque encantado" genero="fantasía">
+  <personajes>
+    <personaje id="p1" tipo="principal" genero="F">
+      <nombre>Luna</nombre>
+      <descripcion>Una niña curiosa y valiente.</descripcion>
+      <imagen>luna.png</imagen>
+    </personaje>
+    <personaje id="p2" tipo="secundario" genero="M">
+      <nombre>Roble</nombre>
+      <descripcion>Un árbol sabio que habla con los animales.</descripcion>
+    </personaje>
+  </personajes>
+
+  <trama>
+    Luna se adentra en un bosque mágico donde conoce criaturas encantadas y debe salvar la naturaleza.
+  </trama>
+
+  <etiqueta nombre="aventura"/>
+  <etiqueta nombre="magia"/>
+  <precio moneda="eur">12.50</precio>
+</cuento>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="T02" titulo="La sombra en la ventana" genero="terror">
+  <personajes>
+    <personaje id="a1" tipo="antagonista" genero="N">
+      <nombre>La Sombra</nombre>
+      <descripcion_fisica>Silenciosa, de ojos brillantes y cuerpo nebuloso.</descripcion_fisica>
+    </personaje>
+    <personaje id="s1" genero="F">
+      <nombre>Sara</nombre>
+      <descripcion>Adolescente que acaba de mudarse a una nueva casa.</descripcion>
+      <url>https://ejemplo.com/sara</url>
+    </personaje>
+  </personajes>
+
+  <trama>
+    Una adolescente empieza a ver figuras inquietantes en su ventana, noche tras noche.
+  </trama>
+
+  <etiqueta nombre="misterio"/>
+  <etiqueta nombre="sobrenatural"/>
+</cuento>
+
